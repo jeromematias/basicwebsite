@@ -9,15 +9,15 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/">
-          @csrf
+        <form action="{{ url('/addnew') }}" method="POST">
+          {{csrf_field()}}
           <div class="form-group">
             <label for="username">User name</label>
-            <input type="text" class="form-control" placeholder="enter username">
+            <input id="username" name="username" type="text" class="form-control" placeholder="enter username">
           </div>
           <div class="form-group">
-            <label for="username">User email</label>
-            <input type="text" class="form-control" placeholder="enter email">
+            <label for="email">User email</label>
+            <input id="email" name="email" type="text" class="form-control" placeholder="enter email">
           </div>
           <div class="form-group">
             <div class="row">
@@ -27,11 +27,7 @@
             </div>        
           </div>
         </form>
-      </div>
-      <!--<div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>-->
+      </div>      
     </div>
   </div>
 </div>
