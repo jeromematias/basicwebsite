@@ -1,0 +1,50 @@
+1. how to install laravel 5.6 via composer
+2. What is php artisan. List out 5 artisan commands?
+3. List 5 benefits of Laravel over other Php frameworks.
+4. What happens when you type “php artisan” in the command line?
+5. Which template engine Laravel use?
+6. Explain Migrations in Laravel? How can you generate migration
+7. How to check current installed version of Laravel?
+8. how do we setup a page in laravel(in any sequence)
+9. how do we set up X-CSRF-TOKEN both in laravel and Javascript.
+10. Example of non-object/object responses inside the route or controller
+11. Example of Dependency Injection & Route Parameters.
+12. Example of Accessing The request Via Route Closures
+13. How to use custom table in Laravel Model?
+14. How can you define Fillable Attribute in a Laravel Model?
+15. In which directory controllers are located in Laravel ?
+16. List Types of relationships supported by Laravel ?
+17. create Eloquent model with relationship.
+   example table:
+	
+	parent table
+	--------------------
+	id
+	firstname
+	lastname
+
+	child table
+	--------------------
+	id
+	parent_id
+	firstname
+	lastname
+
+18. make an http post request that returns model parent with model child (use an AgularJS $http)
+19. return a view blade template with ['parent'=>parent::all()]
+20. how do we access the object parent id,firstname and lastname inside the blade template(refer to #10)
+21-25. Hands on
+    make a simple Parent and Child CRUD using Agular and laravel
+
+
+Good luck!! :)
+
+
+
+
+
+
+
+
+
+
